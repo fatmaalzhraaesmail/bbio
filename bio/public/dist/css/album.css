@@ -1,0 +1,535 @@
+/* .jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+
+} */
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+.Nav img {
+    float: left;
+    height: 50px;
+    width: 50px;
+
+}
+
+.brand {
+    font-size: 25px;
+    color: rgb(145, 135, 123) !important;
+    font-weight: bold;
+
+
+
+}
+
+.Nav {
+    background-color: rgb(121, 20, 20) !important;
+
+}
+
+.main-nav li {
+    margin-left: 3px;
+
+}
+
+.main-nav li a {
+
+    font-size: 16px;
+    color: rgb(145, 135, 123) !important;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.main-nav li span {
+    color: rgb(107, 91, 96) !important;
+
+}
+ .dropdown-menu{
+    background-color: rgb(100, 14, 14);
+
+}
+
+.dropdown-menu a{
+    background-color: rgb(170, 157, 157);
+
+}
+.dropdown-menu a:active{
+    background-color: rgb(170, 157, 157);
+
+}
+.go:focus{
+    box-shadow: none;
+
+}
+
+/* .main-nav li a i{
+
+    font-size: 18px;
+   color: rgb(189, 159, 167) !important;
+   font-weight: bold;
+   line-height: 7px;
+    } */
+h1 {
+    color: rgb(175, 64, 86);
+    font-weight: bold;
+}
+
+h2,
+h3,
+h6 {
+    color: rgb(102, 31, 31);
+}
+
+.swiper-button-next{
+    color: rgb(88, 2, 2) !important;
+}
+.swiper-button-prev{
+    color: rgb(88, 2, 2) !important;
+
+}
+.swiper .swiper-pagination{
+    color: rgb(88, 2, 2) ;
+
+
+}
+#books {
+    background-color: rgb(219, 213, 204);
+}
+
+#algorithms {
+    background-color: rgb(219, 213, 204);
+
+
+}
+
+.main-nav li a:hover {
+    font-size: 16px;
+    color: rgb(82, 29, 29) !important;
+    background-color: rgb(145, 135, 135);
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.main-nav li a:active {
+    font-size: 16px;
+    color: white !important;
+    background-color: rgb(143, 116, 123);
+    font-weight: bold;
+    line-height: 15px;
+}
+
+input[type=submit] {
+    background: rgb(165, 116, 116);
+    color: rgb(99, 22, 22);
+    border: rgb(80, 12, 12);
+    margin-right: 50px;
+}
+
+
+input[type=text] {
+    background-color: rgb(185, 172, 148);
+    color: rgb(146, 53, 53);
+    /* border: rgb(80, 12, 12); */
+     border: none;
+
+    }
+input[type=text]:active {
+    background-color: rgb(185, 172, 148);
+    color: rgb(146, 53, 53);
+
+    border: none;
+
+}
+input[type=text]:focus {
+    background-color: rgb(185, 172, 148);
+    color: rgb(146, 53, 53);
+    box-shadow: none;
+    outline-color: rgb(185, 172, 148);
+
+
+}
+
+.form-control {
+    margin: 5px 10px;
+    border-width: 1;
+    border-radius: 1;
+    border-color: rgb(104, 26, 32);
+    width: 60%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    margin: 5px 10px;
+    border-width: 1;
+    border-radius: 1;
+    border-color: rgb(104, 26, 32);
+    width: 60%;
+}
+
+.form-group label {
+    color: rgb(116, 27, 27);
+    /* padding-right: 10px; */
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    width: 20%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    opacity: 0.644;
+
+    /* background: linear-gradient(rgba(0, 0,0,.9),rgba(0,0,0,.9)); */
+
+
+}
+
+.card1 {
+    height: 330px;
+    background-color: rgb(223, 208, 187);
+    position: relative;
+    /* width: max-content; */
+
+}
+
+.card-button {
+    position: absolute;
+    /* z-index: 1; */
+    top: 8%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.card-button:focus {
+    box-shadow: none;
+    position: absolute;
+    /* z-index: 1; */
+    top: 9%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body img {
+    height: 170px !important;
+}
+
+.card1 .btn-card {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+    text-decoration: none;
+}
+
+.card1 .btn-card:hover {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+}
+.card1 .btn-card:focus {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+    box-shadow: none;
+}
+
+.card1 a {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+    text-decoration: none;
+}
+
+.card1 a:hover {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+}
+
+.card1 p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(87, 38, 38);
+}
+
+.card2 {
+    height: 350px;
+    background-color: rgb(212, 207, 198);
+    /* width: 300px; */
+}
+
+.card2 i,
+p {
+    color: rgb(102, 45, 48);
+}
+
+.btn-aboutUs {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+}
+
+.btn-aboutUs:hover {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+}
+
+.btn-aboutUs:focus {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+    box-shadow: none;
+}
+
+body {
+
+    min-height: 100vh;
+    background-color: rgb(219, 213, 204);
+    position: relative;
+}
+
+.output {
+    background-color: rgb(158, 124, 129);
+
+}
+
+.output span {
+    color: wheat;
+}
+
+.btn-output {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+
+}
+
+.btn-output:hover {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+
+}
+
+.btn-output:focus {
+    color: wheat;
+    background-color: rgb(121, 28, 44);
+    outline-color: rgb(131, 31, 31);
+    box-shadow: none;
+
+}
+
+
+footer {
+
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 0px 0px;
+    background-color: rgb(121, 20, 20) !important;
+
+}
+
+footer p {
+    color: rgb(122, 111, 87);
+}
+
+.footer-nav {
+    float: left;
+    list-style: none;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-nav li a {
+    color: rgb(128, 101, 56);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+    color: rgb(189, 159, 121);
+}
+
+.social-nav {
+    float: right;
+    list-style: none;
+}
+
+.social-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.social-nav li a {
+    color: rgb(131, 107, 62);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-nav li a:hover {
+    color: #fff;
+}
+
+.social-nav .fa-facebook:hover {
+    color: #cca1a1;
+}
+
+
+
+
+.card3 .card-header {
+    background-color: rgb(126, 60, 60);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+
+
+}
+
+
+.card3 .card-body label {
+    color: rgb(83, 21, 24);
+width: 30%;
+    font-weight: bold;
+}
+
+.card3 .card-body button {
+    background-color: rgb(117, 37, 37);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding:8px 20px;
+
+}
+
+.card3 .card-body button:hover {
+    background-color: rgb(122, 39, 50);
+    color: white;
+    font-size: 16px;
+
+}
+
+.card3 .card-body button:focus {
+    background-color: rgb(129, 40, 40);
+    color: white;
+    font-size: 16px;
+    box-shadow: none;
+
+}
+
+.card3 .card-body a {
+    color: white;
+    background-color: rgb(143, 90, 90);
+    text-decoration: none;
+
+
+}
+
+.card3 .card-body {
+    background-color: rgb(211, 174, 177);
+
+
+}
+
+.card3 .card-body a:hover {
+    color: rgb(85, 15, 15);
+
+
+}
+
+.card3 input[type=text] {
+    background-color: rgb(88, 39, 48);
+    color: rgb(190, 179, 179);
+    border: solid 2px rgb(75, 14, 14);
+    width: 100%;
+
+}
+
+
+.card3 input[type=text]:focus-visible {
+    background-color: rgb(88, 39, 48);
+    color: rgb(190, 179, 179);
+    border: solid 2px rgb(75, 14, 14);
+
+}
+
+.card3 input[type=text]:focus {
+    background-color: rgb(88, 39, 48);
+    color: rgb(190, 179, 179);
+    border: solid 2px rgb(75, 14, 14);
+    box-shadow: none;
+
+}
+
+.card3 input[type=password]:focus-visible {
+    background-color: rgb(88, 39, 48);
+    color: rgb(190, 179, 179);
+    border: solid 2px rgb(75, 14, 14);
+
+}
+
+.card3 input[type=password] {
+    background-color: rgb(88, 39, 48);
+    color: rgb(190, 179, 179);
+    border: solid 2px rgb(75, 14, 14);
+    width: 100%;
+
+}
+
+.card3 input[type=password]:focus {
+    box-shadow: none;
+}
+
+.card3 input[type=email] {
+    background-color: rgb(88, 39, 48);
+    color: rgb(190, 179, 179);
+    border: solid 2px rgb(75, 14, 14);
+    width: 100%;
+}
+
+.card3 input[type="email"]:focus-visible {
+    background-color: rgb(88, 39, 48);
+    color: rgb(190, 179, 179);
+    border: solid 2px rgb(75, 14, 14);
+}
+
+.card3 input[type="email"]:focus {
+    box-shadow: none;
+}
+
+.card3 .btn-link:focus {
+    box-shadow: none;
+}
+
